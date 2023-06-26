@@ -37,7 +37,6 @@ body {
     margin: 0;
     width: 350px;
     position: relative;
-    
   }
 }
 
@@ -45,7 +44,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 #submit_application {
@@ -215,12 +213,12 @@ textarea {
   textarea {
     width: 260px;
   }
-  #file{
+  #file {
     color: red;
   }
-  #file_container{
+  #file_container {
     max-width: 305px;
-   display: block;
-   flex-wrap: wrap;
+    display: block;
+    flex-wrap: wrap;
   }
 }
