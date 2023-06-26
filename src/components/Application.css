@@ -30,12 +30,14 @@ body {
 @media (max-width: 390px) {
   body {
     display: flex;
-    margin: 20px;
+    margin-bottom: 10px;
     justify-content: center;
   }
   #main-container {
     margin: 0;
-    width: 300px;
+    width: 350px;
+    position: relative;
+    
   }
 }
 
@@ -43,6 +45,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 #submit_application {
@@ -54,8 +57,8 @@ body {
 
 @media (max-width: 390px) {
   #submit_application {
-    width: 130px;
-    font-size: 0.7rem;
+    width: 160px;
+    font-size: 0.9rem;
   }
 }
 
@@ -181,7 +184,7 @@ a {
 
 @media (max-width: 390px) {
   #section-header {
-    padding-top: 0px;
+    padding-top: 10px;
     font-size: 1rem;
   }
   #personal_details {
@@ -211,5 +214,13 @@ textarea {
 @media (max-width: 390px) {
   textarea {
     width: 260px;
+  }
+  #file{
+    color: red;
+  }
+  #file_container{
+    max-width: 305px;
+   display: block;
+   flex-wrap: wrap;
   }
 }
