@@ -782,9 +782,9 @@ function Application(props) {
                 backgroundColor: selectedDiv === "div1" ? "#fae3d9" : "white",
                 border: selectedDiv === "div1" ? "none" : "1px solid gray",
               }}
-              onClick={() => handleDivClick("div1")}
+             
             >
-              <input type="radio" name="radioGroup" />
+              <input  onClick={() => handleDivClick("div1")} type="radio" name="radioGroup" />
               <span className="radio-icon"></span>
               <label htmlFor="radio1">YES</label>
             </div>
@@ -795,9 +795,9 @@ function Application(props) {
                 backgroundColor: selectedDiv === "div2" ? "#fae3d9" : "white",
                 border: selectedDiv === "div2" ? "none" : "1px solid gray",
               }}
-              onClick={() => handleDivClick("div2")}
+             
             >
-              <input type="radio" name="radioGroup" />
+              <input onClick={() => handleDivClick("div2")} type="radio" name="radioGroup" />
               <span className="radio-icon"></span>
               <label htmlFor="radio2">NO</label>
             </div>
@@ -814,9 +814,9 @@ function Application(props) {
                 backgroundColor: selectedDiv === "div3" ? "#fae3d9" : "white",
                 border: selectedDiv === "div3" ? "none" : "1px solid gray",
               }}
-              onClick={() => handleDivClick("div3")}
+              
             >
-              <input type="radio" name="radioGroup" />
+              <input onClick={() => handleDivClick("div3")} type="radio" name="radioGroup" />
               <span className="radio-icon"></span>
               <label htmlFor="radio1">YES</label>
             </div>
@@ -827,9 +827,9 @@ function Application(props) {
                 backgroundColor: selectedDiv === "div4" ? "#fae3d9" : "white",
                 border: selectedDiv === "div4" ? "none" : "1px solid gray",
               }}
-              onClick={() => handleDivClick("div4")}
+              
             >
-              <input type="radio" name="radioGroup" />
+              <input onClick={() => handleDivClick("div4")} type="radio" name="radioGroup" />
               <span className="radio-icon"></span>
               <label htmlFor="radio2">NO</label>
             </div>

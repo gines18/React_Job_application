@@ -141,7 +141,7 @@ input {
   cursor: pointer;
 }
 
-input[type="radio"] + .radio-icon {
+ .radio-icon {
   background-color: white;
 }
 
